@@ -1,0 +1,17 @@
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Entities.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.csprojAssemblyReference.cache
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.AssemblyInfoInputs.cache
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.AssemblyInfo.cs
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.csproj.CoreCompileInputs.cache
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Data.deps.json
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Data.runtimeconfig.json
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Data.runtimeconfig.dev.json
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Data.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Data.pdb
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Entities.pdb
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.csproj.CopyComplete
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.pdb
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Data\obj\Debug\net5.0\ProgrammersBlog.Data.genruntimeconfig.cache

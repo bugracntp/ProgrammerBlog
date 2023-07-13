@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\alper\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\alper\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ProgrammersBlog.-874720283.00" t="ExcludeRecursive" />
+    <e p="D:\NetCoreRepos\ProgrammersBlog" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ProgrammersBlog.Data" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="IArticleRepository.cs" t="Include" />
+          <e p="ICategoryRepository.cs" t="Include" />
+          <e p="ICommentRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Concrete" t="Include">
+          <e p="EntityFramework" t="Include">
+            <e p="Contexts" t="Include">
+              <e p="ProgrammersBlogContext.cs" t="Include" />
+            </e>
+            <e p="Mappings" t="Include">
+              <e p="ArticleMap.cs" t="Include" />
+              <e p="CategoryMap.cs" t="Include" />
+              <e p="CommentMap.cs" t="Include" />
+              <e p="RoleClaimMap.cs" t="Include" />
+              <e p="RoleMap.cs" t="Include" />
+              <e p="UserClaimMap.cs" t="Include" />
+              <e p="UserLoginMap.cs" t="Include" />
+              <e p="UserMap.cs" t="Include" />
+              <e p="UserRoleMap.cs" t="Include" />
+              <e p="UserTokenMap.cs" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="EfArticleRepository.cs" t="Include" />
+              <e p="EfCategoryRepository.cs" t="Include" />
+              <e p="EfCommentRepository.cs" t="Include" />
+            </e>
+          </e>
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20201024104954_InitialCreate.cs" t="Include" />
+          <e p="20201024104954_InitialCreate.Designer.cs" t="Include" />
+          <e p="ProgrammersBlogContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ProgrammersBlog.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgrammersBlog.Data.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ProgrammersBlog.Entities" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Concrete" t="Include">
+          <e p="Article.cs" t="Include" />
+          <e p="Category.cs" t="Include" />
+          <e p="Comment.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
+          <e p="RoleClaim.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+          <e p="UserClaim.cs" t="Include" />
+          <e p="UserLogin.cs" t="Include" />
+          <e p="UserRole.cs" t="Include" />
+          <e p="UserToken.cs" t="Include" />
+        </e>
+        <e p="Dtos" t="Include">
+          <e p="ArticleAddDto.cs" t="Include" />
+          <e p="ArticleDto.cs" t="Include" />
+          <e p="ArticleListDto.cs" t="Include" />
+          <e p="ArticleUpdateDto.cs" t="Include" />
+          <e p="CategoryAddDto.cs" t="Include" />
+          <e p="CategoryDto.cs" t="Include" />
+          <e p="CategoryListDto.cs" t="Include" />
+          <e p="CategoryUpdateDto.cs" t="Include" />
+          <e p="UserAddDto.cs" t="Include" />
+          <e p="UserDto.cs" t="Include" />
+          <e p="UserListDto.cs" t="Include" />
+          <e p="UserLoginDto.cs" t="Include" />
+          <e p="UserPasswordChangeDto.cs" t="Include" />
+          <e p="UserUpdateDto.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ProgrammersBlog.Entities.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgrammersBlog.Entities.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ProgrammersBlog.Mvc" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Admin" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="CategoryController.cs" t="Include" />
+              <e p="HomeController.cs" t="Include" />
+              <e p="UserController.cs" t="Include" />
+            </e>
+            <e p="Models" t="Include">
+              <e p="CategoryAddAjaxViewModel.cs" t="Include" />
+              <e p="CategoryUpdateAjaxViewModel.cs" t="Include" />
+              <e p="UserAddAjaxViewModel.cs" t="Include" />
+              <e p="UserUpdateAjaxViewModel.cs" t="Include" />
+              <e p="UserViewModel.cs" t="Include" />
+              <e p="UserWithRolesViewModel.cs" t="Include" />
+            </e>
+            <e p="ViewComponents" t="Include">
+              <e p="AdminMenuViewComponent.cs" t="Include" />
+              <e p="UserMenuViewComponent.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Category" t="Include">
+                <e p="_CategoryAddPartial.cshtml" t="Include" />
+                <e p="_CategoryUpdatePartial.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Home" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Shared" t="Include">
+                <e p="_Layout.cshtml" t="Include" />
+                <e p="_LayoutCssPartial.cshtml" t="Include" />
+                <e p="_LayoutJsPartial.cshtml" t="Include" />
+                <e p="_UserLoginLayout.cshtml" t="Include" />
+                <e p="Components" t="Include">
+                  <e p="AdminMenu" t="Include">
+                    <e p="Default.cshtml" t="Include" />
+                  </e>
+                  <e p="UserMenu" t="Include">
+                    <e p="Default.cshtml" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="User" t="Include">
+                <e p="_UserAddPartial.cshtml" t="Include" />
+                <e p="_UserUpdatePartial.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml" t="Include" />
+                <e p="ChangeDetails.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="PasswordChange.cshtml" t="Include" />
+                <e p="UserLogin.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="AutoMapper" t="Include">
+          <e p="Profiles" t="Include">
+            <e p="UserProfile.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="HomeController.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ProgrammersBlog.Mvc.AssemblyInfo.cs" t="Include" />
+              <e p="ProgrammersBlog.Mvc.RazorAssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ProgrammersBlog.Mvc.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="assets" t="Include">
+            <e p="demo" t="Include">
+              <e p="chart-area-demo.js" t="Include" />
+              <e p="chart-bar-demo.js" t="Include" />
+              <e p="chart-pie-demo.js" t="Include" />
+              <e p="datatables-demo.js" t="Include" />
+            </e>
+            <e p="img" t="Include">
+              <e p="error-404-monochrome.svg" t="Include" />
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+            <e p="styles.css" t="Include" />
+            <e p="userLogin.css" t="Include" />
+          </e>
+          <e p="img" t="Include">
+            <e p="adminuser_408_14_6_20_2_11_2020.png" t="Include" />
+            <e p="defaultUser.png" t="Include" />
+            <e p="denemekullanici_821_2_36_17_26_10_2020.png" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="categoryIndex.js" t="Include" />
+            <e p="scripts.js" t="Include" />
+            <e p="site.js" t="Include" />
+            <e p="userIndex.js" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="ProgrammersBlog.Services" t="IncludeRecursive">
+        <e p="Abstract" t="Include">
+          <e p="IArticleService.cs" t="Include" />
+          <e p="ICategoryService.cs" t="Include" />
+        </e>
+        <e p="AutoMapper" t="Include">
+          <e p="Profiles" t="Include">
+            <e p="ArticleProfile.cs" t="Include" />
+            <e p="CategoryProfile.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Concrete" t="Include">
+          <e p="ArticleManager.cs" t="Include" />
+          <e p="CategoryManager.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="ServiceCollectionExtensions.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ProgrammersBlog.Services.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgrammersBlog.Services.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="ProgrammersBlog.Shared" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="Abstract" t="Include">
+            <e p="IEntityRepository.cs" t="Include" />
+          </e>
+          <e p="Concrete" t="Include">
+            <e p="EntityFramework" t="Include">
+              <e p="EfEntityRepositoryBase.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Abstract" t="Include">
+            <e p="DtoGetBase.cs" t="Include" />
+            <e p="EntityBase.cs" t="Include" />
+            <e p="IEntity.cs" t="Include" />
+          </e>
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="net5.0" t="Include">
+              <e p="ProgrammersBlog.Shared.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgrammersBlog.Shared.csproj" t="IncludeRecursive" />
+        <e p="Utilities" t="Include">
+          <e p="Extensions" t="Include">
+            <e p="ControllerExtensions.cs" t="Include" />
+            <e p="DateTimeExtensions.cs" t="Include" />
+          </e>
+          <e p="Results" t="Include">
+            <e p="Abstract" t="Include">
+              <e p="IDataResult.cs" t="Include" />
+              <e p="IResult.cs" t="Include" />
+            </e>
+            <e p="ComplexTypes" t="Include">
+              <e p="ResultStatus.cs" t="Include" />
+            </e>
+            <e p="Concrete" t="Include">
+              <e p="DataResult.cs" t="Include" />
+              <e p="Result.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="ProgrammersBlog.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
