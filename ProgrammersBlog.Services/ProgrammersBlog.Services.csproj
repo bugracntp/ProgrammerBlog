@@ -4,8 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+    <NoWarn>1701;1702;CS1591</NoWarn>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
   </ItemGroup>
 
