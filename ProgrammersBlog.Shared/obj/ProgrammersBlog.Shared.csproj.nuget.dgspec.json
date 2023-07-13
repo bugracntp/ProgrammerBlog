@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {}
+    "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {}
   },
   "projects": {
-    "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
+    "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+        "projectUniqueName": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
         "projectName": "ProgrammersBlog.Shared",
-        "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
+        "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj",
         "packagesPath": "C:\\Users\\aslan\\.nuget\\packages\\",
-        "outputPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\obj\\",
+        "outputPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aslan\\AppData\\Roaming\\NuGet\\NuGet.Config",

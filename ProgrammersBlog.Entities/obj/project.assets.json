@@ -8223,11 +8223,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj",
+      "projectUniqueName": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj",
       "projectName": "ProgrammersBlog.Entities",
-      "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj",
+      "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj",
       "packagesPath": "C:\\Users\\aslan\\.nuget\\packages\\",
-      "outputPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\obj\\",
+      "outputPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8244,8 +8244,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
-              "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj"
+            "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
+              "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj"
             }
           }
         }

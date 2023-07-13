@@ -14,3 +14,6 @@ D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\Progra
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Entities.pdb
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CopyComplete
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ref\ProgrammersBlog.Services.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ref\ProgrammersBlog.Services.dll

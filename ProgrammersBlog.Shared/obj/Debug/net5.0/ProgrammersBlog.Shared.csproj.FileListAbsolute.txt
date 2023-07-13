@@ -7,3 +7,6 @@ D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\Programm
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.csproj.CoreCompileInputs.cache
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.dll
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.pdb
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ref\ProgrammersBlog.Shared.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ref\ProgrammersBlog.Shared.dll

@@ -10148,11 +10148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
+      "projectUniqueName": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
       "projectName": "ProgrammersBlog.Services",
-      "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
+      "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\ProgrammersBlog.Services.csproj",
       "packagesPath": "C:\\Users\\aslan\\.nuget\\packages\\",
-      "outputPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\obj\\",
+      "outputPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10169,14 +10169,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Data\\ProgrammersBlog.Data.csproj": {
-              "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Data\\ProgrammersBlog.Data.csproj"
+            "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Data\\ProgrammersBlog.Data.csproj": {
+              "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Data\\ProgrammersBlog.Data.csproj"
             },
-            "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj": {
-              "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj"
+            "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj": {
+              "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Entities\\ProgrammersBlog.Entities.csproj"
             },
-            "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
-              "projectPath": "d:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj"
+            "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj": {
+              "projectPath": "D:\\calismalar\\asp.net\\ProgrammersBlog\\ProgrammersBlog.Shared\\ProgrammersBlog.Shared.csproj"
             }
           }
         }

@@ -1,6 +1,5 @@
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\appsettings.Development.json
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\appsettings.json
-D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\Properties\launchSettings.json
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\ProgrammersBlog.Mvc.exe
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\ProgrammersBlog.Mvc.deps.json
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\ProgrammersBlog.Mvc.runtimeconfig.json
@@ -409,3 +408,7 @@ D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\Components\UserMenu\Default.cshtml.g.cs
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\ChangeDetails.cshtml.g.cs
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\PasswordChange.cshtml.g.cs
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ProgrammersBlog.Mvc.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\bin\Debug\net5.0\ref\ProgrammersBlog.Mvc.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\scopedcss\bundle\ProgrammersBlog.Mvc.styles.css
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Mvc\obj\Debug\net5.0\ref\ProgrammersBlog.Mvc.dll
