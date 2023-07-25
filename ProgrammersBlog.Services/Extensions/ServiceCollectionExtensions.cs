@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ProgrammersBlog.Data.Abstract;
@@ -32,6 +33,10 @@ namespace ProgrammersBlog.Services.Extensions
                 options.User.AllowedUserNameCharacters= "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+$";
                 options.User.RequireUniqueEmail = true;
             }).AddEntityFrameworkStores<ProgrammersBlogContext>();
+            serviceCollection.Configure<SecurityStampValidatorOptions>(options =>
+            {
+                options.ValidationInterval=TimeSpan.FromMinutes(15);
+            });
             serviceCollection.AddScoped<IUnitOfWork, UnitOfWork>();
             serviceCollection.AddScoped<ICategoryService, CategoryManager>();
             serviceCollection.AddScoped<IArticleService, ArticleManager>();

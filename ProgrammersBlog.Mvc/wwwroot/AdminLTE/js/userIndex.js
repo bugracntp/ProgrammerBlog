@@ -39,10 +39,15 @@
                                        const newTableRow =  dataTable.row.add([
                                             user.Id,
                                             user.UserName,
-                                            user.Email,
-                                            user.PhoneNumber,
+                                           user.Email,
+                                           user.FirstName,
+                                            user.LastName,
+                                           user.PhoneNumber,
+                                           user.About.length > 75 ? user.About.substring(0, 75) : user.About,
                                             `<img src="/img/${user.Picture}" alt="${user.UserName}" class="my-image-table" />`,
                                             `
+                                <button class="btn btn-info btn-sm btn-detail" data-id="${user.Id}"><span class="fas fa-newspaper"></span></button>
+                                <button class="btn btn-warning btn-sm btn-assign" data-id="${user.Id}"><span class="fas fa-user-shield"></span></button>
                                 <button class="btn btn-primary btn-sm btn-update" data-id="${user.Id}"><span class="fas fa-edit"></span></button>
                                 <button class="btn btn-danger btn-sm btn-delete" data-id="${user.Id}"><span class="fas fa-minus-circle"></span></button>
                                             `
@@ -144,9 +149,14 @@
                             userAddAjaxModel.UserDto.User.Id,
                             userAddAjaxModel.UserDto.User.UserName,
                             userAddAjaxModel.UserDto.User.Email,
+                            userAddAjaxModel.UserDto.User.FirstName,
+                            userAddAjaxModel.UserDto.User.LastName,
                             userAddAjaxModel.UserDto.User.PhoneNumber,
+                            userAddAjaxModel.UserDto.User.About.length > 75 ? userAddAjaxModel.UserDto.User.About.substring(0, 75) : userAddAjaxModel.UserDto.User.About,
                             `<img src="/img/${userAddAjaxModel.UserDto.User.Picture}" alt="${userAddAjaxModel.UserDto.User.UserName}" class="my-image-table" />`,
                             `
+                                <button class="btn btn-info btn-sm btn-detail" data-id="${userAddAjaxModel.UserDto.User.Id}"><span class="fas fa-newspaper"></span></button>
+                                <button class="btn btn-warning btn-sm btn-assign" data-id="${userAddAjaxModel.UserDto.User.Id}"><span class="fas fa-user-shield"></span></button>
                                 <button class="btn btn-primary btn-sm btn-update" data-id="${userAddAjaxModel.UserDto.User.Id}"><span class="fas fa-edit"></span></button>
                                 <button class="btn btn-danger btn-sm btn-delete" data-id="${userAddAjaxModel.UserDto.User.Id}"><span class="fas fa-minus-circle"></span></button>
                             `
@@ -263,22 +273,25 @@
                 success: function(data) {
                     const userUpdateAjaxModel = jQuery.parseJSON(data);
                     console.log(userUpdateAjaxModel);
-                    if (userUpdateAjaxModel.UserDto !== null) {
-                        const id = userUpdateAjaxModel.UserDto.User.Id;
-                        const tableRow = $(`[name="${id}"]`);
-                    }
                     const newFormBody = $('.modal-body', userUpdateAjaxModel.UserUpdatePartial);
                     placeHolderDiv.find('.modal-body').replaceWith(newFormBody);
                     const isValid = newFormBody.find('[name="IsValid"]').val() === 'True';
                     if (isValid) {
+                        const id = userUpdateAjaxModel.UserDto.User.Id;
+                        const tableRow = $(`[name="${id}"]`);
                         placeHolderDiv.find('.modal').modal('hide');
                         dataTable.row(tableRow).data([
                             userUpdateAjaxModel.UserDto.User.Id,
                             userUpdateAjaxModel.UserDto.User.UserName,
                             userUpdateAjaxModel.UserDto.User.Email,
+                            userUpdateAjaxModel.UserDto.User.FirstName,
+                            userUpdateAjaxModel.UserDto.User.LastName,
                             userUpdateAjaxModel.UserDto.User.PhoneNumber,
+                            userUpdateAjaxModel.UserDto.User.About.length > 75 ? userUpdateAjaxModel.UserDto.User.About.substring(0, 75) : userUpdateAjaxModel.UserDto.User.About,
                             `<img src="/img/${userUpdateAjaxModel.UserDto.User.Picture}" alt="${userUpdateAjaxModel.UserDto.User.UserName}" class="my-image-table" />`,
                             `
+                                <button class="btn btn-info btn-sm btn-detail" data-id="${userUpdateAjaxModel.UserDto.User.Id}"><span class="fas fa-newspaper"></span></button>
+                                <button class="btn btn-warning btn-sm btn-assign" data-id="${userUpdateAjaxModel.UserDto.User.Id}"><span class="fas fa-user-shield"></span></button>
                                 <button class="btn btn-primary btn-sm btn-update" data-id="${userUpdateAjaxModel.UserDto.User.Id}"><span class="fas fa-edit"></span></button>
                                 <button class="btn btn-danger btn-sm btn-delete" data-id="${userUpdateAjaxModel.UserDto.User.Id}"><span class="fas fa-minus-circle"></span></button>
                             `
@@ -301,6 +314,86 @@
                 }
             });
         });
+
+    });
+    // Get Detail Ajax Operation
+
+    $(function () {
+
+        const url = '/Admin/User/GetDetail/';
+        const placeHolderDiv = $('#modalPlaceHolder');
+        $(document).on('click',
+            '.btn-detail',
+            function (event) {
+                event.preventDefault();
+                const id = $(this).attr('data-id');
+                $.get(url, { userId: id }).done(function (data) {
+                    placeHolderDiv.html(data);
+                    placeHolderDiv.find('.modal').modal('show');
+                }).fail(function (err) {
+                    toastr.error(`${err.responseText}`, 'Hata!');
+                });
+            });
+
+    });
+
+    $(function () {
+        const url = '/Admin/Role/Assign/';
+        const placeHolderDiv = $('#modalPlaceHolder');
+        $(document).on('click',
+            '.btn-assign',
+            function (event) {
+                event.preventDefault();
+                const id = $(this).attr('data-id');
+                $.get(url, { userId: id }).done(function (data) {
+                    placeHolderDiv.html(data);
+                    placeHolderDiv.find('.modal').modal('show');
+                }).fail(function (err) {
+                    toastr.error(`${err.responseText}`, 'Hata!');
+                });
+            });
+
+        /* Ajax POST / Updating a Role Assign starts from here */
+
+        placeHolderDiv.on('click',
+            '#btnAssign',
+            function (event) {
+                event.preventDefault();
+                const form = $('#form-role-assign');
+                const actionUrl = form.attr('action');
+                const dataToSend = new FormData(form.get(0));
+                $.ajax({
+                    url: actionUrl,
+                    type: 'POST',
+                    data: dataToSend,
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        const userRoleAssignAjaxModel = jQuery.parseJSON(data);
+                        console.log(userRoleAssignAjaxModel);
+                        const newFormBody = $('.modal-body', userRoleAssignAjaxModel.RoleAssignPartial);
+                        placeHolderDiv.find('.modal-body').replaceWith(newFormBody);
+                        const isValid = newFormBody.find('[name="IsValid"]').val() === 'True';
+                        if (isValid) {
+                            const id = userRoleAssignAjaxModel.UserDto.User.Id;
+                            const tableRow = $(`[name="${id}"]`);
+                            //placeHolderDiv.find('.modal').modal('hide');
+                            toastr.success(`${userRoleAssignAjaxModel.UserDto.Message}`, "Başarılı İşlem!");
+                        } else {
+                            let summaryText = "";
+                            $('#validation-summary > ul > li').each(function () {
+                                let text = $(this).text();
+                                summaryText = `*${text}\n`;
+                            });
+                            toastr.warning(summaryText);
+                        }
+                    },
+                    error: function (error) {
+                        console.log(error);
+                        toastr.error(`${err.responseText}`, 'Hata!');
+                    }
+                });
+            });
 
     });
 });

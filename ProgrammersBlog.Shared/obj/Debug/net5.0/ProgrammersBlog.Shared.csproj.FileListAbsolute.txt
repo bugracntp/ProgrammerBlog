@@ -1,6 +1,5 @@
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.deps.json
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
-D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.csprojAssemblyReference.cache
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.AssemblyInfoInputs.cache
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.AssemblyInfo.cs
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
@@ -10,6 +9,7 @@ D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\Programm
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ref\ProgrammersBlog.Shared.dll
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ref\ProgrammersBlog.Shared.dll
+D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Shared\obj\Debug\net5.0\ProgrammersBlog.Shared.csprojAssemblyReference.cache
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.deps.json
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.dll
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Shared\bin\Debug\net5.0\ProgrammersBlog.Shared.pdb
