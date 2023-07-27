@@ -5,6 +5,46 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Areas\Admin\Views\Article\Add.cshtml" />
+    <None Include="Areas\Admin\Views\Article\DeletedArticles.cshtml" />
+    <None Include="Areas\Admin\Views\Article\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Article\Update.cshtml" />
+    <None Include="Areas\Admin\Views\Auth\AccessDenied.cshtml" />
+    <None Include="Areas\Admin\Views\Auth\Login.cshtml" />
+    <None Include="Areas\Admin\Views\Category\DeletedCategories.cshtml" />
+    <None Include="Areas\Admin\Views\Category\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Category\_CategoryAddPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Category\_CategoryUpdatePartial.cshtml" />
+    <None Include="Areas\Admin\Views\Comment\DeletedComments.cshtml" />
+    <None Include="Areas\Admin\Views\Comment\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Comment\_CommentDetailPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Comment\_CommentUpdatePartial.cshtml" />
+    <None Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Options\About.cshtml" />
+    <None Include="Areas\Admin\Views\Options\ArticleRightSideBarWidgetSettings.cshtml" />
+    <None Include="Areas\Admin\Views\Options\EmailSettings.cshtml" />
+    <None Include="Areas\Admin\Views\Options\GeneralSettings.cshtml" />
+    <None Include="Areas\Admin\Views\Role\Index.cshtml" />
+    <None Include="Areas\Admin\Views\Role\_RoleAssignPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Components\AdminMenu\Default.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\Components\UserMenu\Default.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_LayoutCssPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_LayoutJsPartial.cshtml" />
+    <None Include="Areas\Admin\Views\Shared\_UserLoginLayout.cshtml" />
+    <None Include="Areas\Admin\Views\User\AccessDenied.cshtml" />
+    <None Include="Areas\Admin\Views\User\ChangeDetails.cshtml" />
+    <None Include="Areas\Admin\Views\User\Index.cshtml" />
+    <None Include="Areas\Admin\Views\User\PasswordChange.cshtml" />
+    <None Include="Areas\Admin\Views\User\UserLogin.cshtml" />
+    <None Include="Areas\Admin\Views\User\_GetDetailPartial.cshtml" />
+    <None Include="Areas\Admin\Views\User\_UserAddPartial.cshtml" />
+    <None Include="Areas\Admin\Views\User\_UserUpdatePartial.cshtml" />
+    <None Include="Areas\Admin\Views\_ViewImports.cshtml" />
+    <None Include="Areas\Admin\Views\_ViewStart.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.0" />
@@ -12,7 +52,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="NLog" Version="4.7.7" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.10.0" />
     <PackageReference Include="NToastNotify" Version="7.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
   <ItemGroup>

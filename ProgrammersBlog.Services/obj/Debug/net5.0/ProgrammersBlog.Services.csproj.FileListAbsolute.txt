@@ -18,6 +18,9 @@ D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ref\Pr
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.GeneratedMSBuildEditorConfig.editorconfig
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ref\ProgrammersBlog.Services.dll
 D:\NetCoreRepos\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.xml
+D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.dll
+D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\refint\ProgrammersBlog.Services.dll
+D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.pdb
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.deps.json
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.dll
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\bin\Debug\net5.0\ProgrammersBlog.Services.pdb
@@ -34,7 +37,4 @@ D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.AssemblyInfo.cs
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CoreCompileInputs.cache
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.csproj.CopyComplete
-D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.dll
-D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\refint\ProgrammersBlog.Services.dll
-D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ProgrammersBlog.Services.pdb
 D:\calismalar\asp.net\ProgrammersBlog\ProgrammersBlog.Services\obj\Debug\net5.0\ref\ProgrammersBlog.Services.dll
